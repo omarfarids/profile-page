@@ -1,0 +1,75 @@
+main.home-page{
+    display: flex;
+    flex-direction: column;
+    padding:12px;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 5rem;
+}
+
+main img{
+    max-height: 400px;
+    object-fit: cover;
+}
+.card{
+    max-width:400px;
+    background-color: #2c2c6c;
+}
+.career-card{
+    @extend %column;
+    align-items: flex-end;
+    gap: 1rem;
+    margin: {
+        top: 1rem;
+        bottom: 1rem;
+    };
+}
+.info-btn{
+    text-decoration: underline;
+}
+.work-description{
+    font-size: 0.9em;
+}
+main section{
+    ul{
+        list-style:square;
+        li{
+            opacity: 0.8;
+        }
+    }
+}
+.card-body{
+    @extend %row;
+    justify-content: space-evenly;
+}
+@media (min-width:375px){
+    .skill{
+        gap:0.5rem;
+    }
+}
+@media (min-width:767px){
+    main section{
+        max-width: 900px;
+        
+    }
+    .skill{
+        gap:4rem;
+    }
+    .card{
+        display: flex;
+        flex-direction: row;
+        max-width: unset;
+        max-width: 900px;
+    }
+    .card.skill{
+        flex-direction: row-reverse;
+    }
+    main img.card-img{
+        max-height: unset;
+        width: 40%;
+    }
+    .card-body{
+        justify-content: flex-start;
+        gap: 6vw;
+    }
+}

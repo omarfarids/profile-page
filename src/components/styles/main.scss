@@ -1,0 +1,105 @@
+@import './header';
+@import './mainSection';
+@import './footer';
+@import './project';
+@import './nav';
+@import './contact';
+
+$color-bg:#1f1f38;
+$color-bg-variant:#2c2c6c;
+$color-primary:#4bd5ff;
+$color-primary-variant:rgba(77,181,255,0.4);
+$color-white:#fff;
+$color-light:rgba(255,255,255,0.6);
+
+// ======================
+
+
+%row{
+    display: flex;
+    flex-direction: row;
+}
+%column{
+    display: flex;
+    flex-direction: column;
+}
+%centered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+// ======================
+
+
+
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: 0;
+    outline: 0;
+    color: unset;
+}
+
+p{
+    opacity: .8;
+    margin: 0;
+}
+span.job-title{
+    font-size: .9rem;
+    font-weight: 600;
+}
+:root{
+    min-width: 320px;
+}
+body{
+    background-color: $color-bg;
+    color: $color-white;
+    line-height: 1.7;
+}
+a{
+    color: $color-white;
+    // text-decoration: none;
+    &:hover{
+        color: $color-primary
+    }
+}
+h2{
+    margin: 2rem auto;
+    text-align: center;
+}
+.loading-circle{
+    width: 50px;
+    height: 50px;
+    border: 5px solid #0d6efd;
+    border-left-color: transparent;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    animation: load 0.5s ease-in-out infinite;
+}
+@keyframes load{
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(90deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    75%{
+        transform: rotate(270deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
