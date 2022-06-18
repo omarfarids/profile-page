@@ -7,8 +7,8 @@ function Project({img,name,id,skills,repo,deployment}) {
             <div className='project-body'>
                 <h3 className='project-name'>{name}</h3>
                 <div className='project-links'>
-                    <a title='Repository' href={repo}>Github</a>
-                    <a title='Deployment' href={deployment}>Live Demo</a>
+                    <a title='Repository' href={repo} target='_blank' rel='noreferrer'>Github</a>
+                    <a title='Deployment' href={deployment} target='_blank' rel='noreferrer'>Live Demo</a>
                 </div>
                 <div className='project-skills'>
                     {skills.map(skill => {
