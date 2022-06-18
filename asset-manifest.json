@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/profile-page/static/css/main.0deaf861.css",
-    "main.js": "/profile-page/static/js/main.55719a12.js",
+    "main.css": "/profile-page/static/css/main.404f0e85.css",
+    "main.js": "/profile-page/static/js/main.ac351631.js",
     "static/js/787.21d17fcb.chunk.js": "/profile-page/static/js/787.21d17fcb.chunk.js",
     "static/media/img3.jpg": "/profile-page/static/media/img3.e854a1d08ceb75273856.jpg",
     "static/media/Kasper.png": "/profile-page/static/media/Kasper.ee84eb817b8a506245a5.png",
@@ -9,17 +9,17 @@
     "static/media/Dental-Store.png": "/profile-page/static/media/Dental-Store.76146b0ef2e8acfa3639.png",
     "static/media/projects-randol-rn.png": "/profile-page/static/media/projects-randol-rn.7f32521a32ae0ad1a429.png",
     "static/media/img2.png": "/profile-page/static/media/img2.ee708359afbfa62e8399.png",
-    "static/media/Omar_Farid_CV.pdf": "/profile-page/static/media/Omar_Farid_CV.3f5fbd42230f4b4c8d5c.pdf",
+    "static/media/Omar_Farid_CV.pdf": "/profile-page/static/media/Omar_Farid_CV.8a86b2b60361d9d04bc0.pdf",
     "static/media/img1.webp": "/profile-page/static/media/img1.4e67e8998962a03f9077.webp",
     "static/media/img4.jpeg": "/profile-page/static/media/img4.8eede04d77427bc1a0a9.jpeg",
     "static/media/online-wallet.png": "/profile-page/static/media/online-wallet.84a0fd2ff4e2479550c3.png",
     "index.html": "/profile-page/index.html",
-    "main.0deaf861.css.map": "/profile-page/static/css/main.0deaf861.css.map",
-    "main.55719a12.js.map": "/profile-page/static/js/main.55719a12.js.map",
+    "main.404f0e85.css.map": "/profile-page/static/css/main.404f0e85.css.map",
+    "main.ac351631.js.map": "/profile-page/static/js/main.ac351631.js.map",
     "787.21d17fcb.chunk.js.map": "/profile-page/static/js/787.21d17fcb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0deaf861.css",
-    "static/js/main.55719a12.js"
+    "static/css/main.404f0e85.css",
+    "static/js/main.ac351631.js"
   ]
 }
