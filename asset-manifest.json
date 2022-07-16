@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/profile-page/static/css/main.404f0e85.css",
-    "main.js": "/profile-page/static/js/main.ac351631.js",
+    "main.css": "/profile-page/static/css/main.50fb64bf.css",
+    "main.js": "/profile-page/static/js/main.f24844e5.js",
     "static/js/787.21d17fcb.chunk.js": "/profile-page/static/js/787.21d17fcb.chunk.js",
     "static/media/img3.jpg": "/profile-page/static/media/img3.e854a1d08ceb75273856.jpg",
     "static/media/Kasper.png": "/profile-page/static/media/Kasper.ee84eb817b8a506245a5.png",
     "static/media/leon-agency.png": "/profile-page/static/media/leon-agency.cd5aa37dfcf7372d9214.png",
+    "static/media/furniture.png": "/profile-page/static/media/furniture.7a6f416ba3a11a2a5051.png",
     "static/media/Dental-Store.png": "/profile-page/static/media/Dental-Store.76146b0ef2e8acfa3639.png",
     "static/media/projects-randol-rn.png": "/profile-page/static/media/projects-randol-rn.7f32521a32ae0ad1a429.png",
     "static/media/img2.png": "/profile-page/static/media/img2.ee708359afbfa62e8399.png",
@@ -14,12 +15,12 @@
     "static/media/img4.jpeg": "/profile-page/static/media/img4.8eede04d77427bc1a0a9.jpeg",
     "static/media/online-wallet.png": "/profile-page/static/media/online-wallet.84a0fd2ff4e2479550c3.png",
     "index.html": "/profile-page/index.html",
-    "main.404f0e85.css.map": "/profile-page/static/css/main.404f0e85.css.map",
-    "main.ac351631.js.map": "/profile-page/static/js/main.ac351631.js.map",
+    "main.50fb64bf.css.map": "/profile-page/static/css/main.50fb64bf.css.map",
+    "main.f24844e5.js.map": "/profile-page/static/js/main.f24844e5.js.map",
     "787.21d17fcb.chunk.js.map": "/profile-page/static/js/787.21d17fcb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.404f0e85.css",
-    "static/js/main.ac351631.js"
+    "static/css/main.50fb64bf.css",
+    "static/js/main.f24844e5.js"
   ]
 }
