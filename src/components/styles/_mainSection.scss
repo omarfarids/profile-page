@@ -11,10 +11,12 @@ main img{
     max-height: 400px;
     object-fit: cover;
 }
+
 .card{
     max-width:400px;
     background-color: #2c2c6c;
 }
+
 .career-card{
     @extend %column;
     align-items: flex-end;
@@ -24,15 +26,18 @@ main img{
         bottom: 1rem;
     };
 }
+
 .info-btn{
     text-decoration: underline;
 }
+
 .work-description{
     font-size: 0.9em;
 }
+
 main section{
     ul{
-        list-style:square;
+        list-style:none;
         li{
             opacity: 0.8;
         }

@@ -1,5 +1,7 @@
 import React from 'react'
 import img4 from '../assets/img4.jpeg'
+import { TiTick } from 'react-icons/ti';
+
 
 function Skills() {
   return (
@@ -10,21 +12,21 @@ function Skills() {
                 <div className='skill-programming'>
                     Programming skills:
                     <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>SASS</li>
-                        <li>Bootstrap</li>
-                        <li>JavaScript</li>
-                        <li>TypeScript</li>
-                        <li>Reactjs</li>
-                        <li>Nextjs</li>
+                        <li><TiTick /> Reactjs</li>
+                        <li><TiTick /> Nextjs</li>
+                        <li><TiTick /> JavaScript</li>
+                        <li><TiTick /> TypeScript</li>
+                        <li><TiTick /> SASS</li>
+                        <li><TiTick /> Bootstrap</li>
+                        <li><TiTick /> CSS</li>
+                        <li><TiTick /> HTML</li>
                     </ul>
                 </div>
                 <div className='skill-language'>
                     Languages:
                     <ul>
-                        <li>Arabic</li>
-                        <li>English</li>
+                        <li><TiTick /> Arabic</li>
+                        <li><TiTick /> English</li>
                     </ul>
                 </div>
             </div>
